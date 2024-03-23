@@ -1,0 +1,8 @@
+prefix=/home/farhan/matlab_ws/shared/devel
+
+Name: my_sim
+Description: Description of my_sim
+Version: 1.0.0
+Cflags: -I/home/farhan/matlab_ws/shared/src/my_sim/include
+Libs: -L${prefix}/lib 
+Requires: geometry_msgs mavros_msgs roscpp std_msgs

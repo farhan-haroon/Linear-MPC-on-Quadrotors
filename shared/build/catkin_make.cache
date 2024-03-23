@@ -1,0 +1,2 @@
+my_sim:rough:untitled
+-DALIAS_ROS1_CLASS_LOADER=1 -DBoost_NAMESPACE=mwboost -DCMAKE_PREFIX_PATH=/usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages -DCATKIN_DEVEL_PREFIX=/home/farhan/matlab_ws/shared/devel -DCMAKE_INSTALL_PREFIX=/home/farhan/matlab_ws/shared/install -G Ninja

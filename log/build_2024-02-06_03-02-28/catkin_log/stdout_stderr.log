@@ -1,0 +1,130 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/lib/ccache/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/lib/ccache/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Using CATKIN_DEVEL_PREFIX: /home/farhan/matlab_ws/devel
+-- Using CMAKE_PREFIX_PATH: /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: /home/farhan/.matlab/R2023b/ros1/glnxa64/venv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/farhan/.matlab/R2023b/ros1/glnxa64/venv/bin/python3
+-- Using Debian Python package layout
+-- Found PY_em: /home/farhan/.matlab/R2023b/ros1/glnxa64/venv/lib/python3.8/site-packages/em.py  
+-- Using empy: /home/farhan/.matlab/R2023b/ros1/glnxa64/venv/lib/python3.8/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/farhan/matlab_ws/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+CMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PythonInterp: /home/farhan/.matlab/R2023b/ros1/glnxa64/venv/bin/python3 (found version "3.8.10") 
+-- Found Threads: TRUE  
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - test_sim
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'test_sim'
+-- ==> add_subdirectory(test_sim)
+CMake Warning at /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: geneus
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib/cmake/actionlibConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/uuid_msgs/cmake/uuid_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/geographic_msgs/cmake/geographic_msgsConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/mavros_msgs/cmake/mavros_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  test_sim/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: genlisp
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib/cmake/actionlibConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/uuid_msgs/cmake/uuid_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/geographic_msgs/cmake/geographic_msgsConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/mavros_msgs/cmake/mavros_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  test_sim/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: gennodejs
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib/cmake/actionlibConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/uuid_msgs/cmake/uuid_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/geographic_msgs/cmake/geographic_msgsConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/mavros_msgs/cmake/mavros_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  test_sim/CMakeLists.txt:20 (find_package)
+
+
+-- Using these message generators: gencpp;genpy
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    Boost_NAMESPACE
+
+
+-- Build files have been written to: /home/farhan/matlab_ws/build
+[1/18] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/rtGetNaN.cpp.o
+[2/18] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/rtGetInf.cpp.o
+[3/18] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/rt_nonfinite.cpp.o
+[4/18] Building C object test_sim/CMakeFiles/test_sim.dir/src/ext_work.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[5/18] Building C object test_sim/CMakeFiles/test_sim.dir/src/ext_svr.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[6/18] Building C object test_sim/CMakeFiles/test_sim.dir/src/rtiostream_interface.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[7/18] Building C object test_sim/CMakeFiles/test_sim.dir/src/rtiostream_utils.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[8/18] Building C object test_sim/CMakeFiles/test_sim.dir/src/updown.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[9/18] Building C object test_sim/CMakeFiles/test_sim.dir/src/rtiostream_tcpip.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+ninja: build stopped: interrupted by user.

@@ -1,0 +1,262 @@
+[0/1] Re-running CMake...
+-- Using CATKIN_DEVEL_PREFIX: /home/farhan/matlab_ws/devel
+-- Using CMAKE_PREFIX_PATH: /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages
+-- This workspace overlays: /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1;/usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages
+-- Found PythonInterp: /home/farhan/.matlab/R2023b/ros1/glnxa64/venv/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /home/farhan/.matlab/R2023b/ros1/glnxa64/venv/bin/python3
+-- Using Debian Python package layout
+-- Using empy: /home/farhan/.matlab/R2023b/ros1/glnxa64/venv/lib/python3.8/site-packages/em.py
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/farhan/matlab_ws/build/test_results
+-- Forcing gtest/gmock from source, though one was otherwise available.
+-- Found gtest sources under '/usr/src/googletest': gtests will be built
+-- Found gmock sources under '/usr/src/googletest': gmock will be built
+CMake Deprecation Warning at /usr/src/googletest/CMakeLists.txt:4 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googlemock/CMakeLists.txt:45 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+CMake Deprecation Warning at /usr/src/googletest/googletest/CMakeLists.txt:56 (cmake_minimum_required):
+  Compatibility with CMake < 2.8.12 will be removed from a future version of
+  CMake.
+
+  Update the VERSION argument <min> value or use a ...<max> suffix to tell
+  CMake that the project does not need compatibility with older versions.
+
+
+-- Found PythonInterp: /home/farhan/.matlab/R2023b/ros1/glnxa64/venv/bin/python3 (found version "3.8.10") 
+-- Using Python nosetests: /usr/bin/nosetests3
+-- catkin 0.8.10
+-- BUILD_SHARED_LIBS is on
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 1 packages in topological order:
+-- ~~  - test_sim
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'test_sim'
+-- ==> add_subdirectory(test_sim)
+CMake Warning at /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: geneus
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib/cmake/actionlibConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/uuid_msgs/cmake/uuid_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/geographic_msgs/cmake/geographic_msgsConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/mavros_msgs/cmake/mavros_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  test_sim/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: genlisp
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib/cmake/actionlibConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/uuid_msgs/cmake/uuid_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/geographic_msgs/cmake/geographic_msgsConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/mavros_msgs/cmake/mavros_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  test_sim/CMakeLists.txt:20 (find_package)
+
+
+CMake Warning at /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsg-extras.cmake:49 (message):
+  Unknown message generator specified in ROS_LANG_DISABLE: gennodejs
+Call Stack (most recent call first):
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/genmsg/cmake/genmsgConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgs-extras.cmake:2 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib_msgs/cmake/actionlib_msgsConfig.cmake:222 (include)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/actionlib/cmake/actionlibConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/uuid_msgs/cmake/uuid_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/geographic_msgs/cmake/geographic_msgsConfig.cmake:197 (find_package)
+  /usr/local/MATLAB/R2023b/toolbox/ros/mlroscpp/custom_messages/share/mavros_msgs/cmake/mavros_msgsConfig.cmake:174 (find_package)
+  /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/share/catkin/cmake/catkinConfig.cmake:76 (find_package)
+  test_sim/CMakeLists.txt:20 (find_package)
+
+
+-- Using these message generators: gencpp;genpy
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/farhan/matlab_ws/build
+ninja: no work to do.
+[1/16] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/main.cpp.o
+In file included from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/forwards.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/common.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/ros.h:43,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_busmsg_conversion.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_initialize.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/test_sim.h:28,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/rosnodeinterface.h:33,
+                 from /home/farhan/matlab_ws/src/test_sim/src/main.cpp:12:
+/usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[2/16] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/rosnodeinterface.cpp.o
+In file included from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/forwards.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/common.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/ros.h:43,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_busmsg_conversion.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_initialize.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/test_sim.h:28,
+                 from /home/farhan/matlab_ws/src/test_sim/src/rosnodeinterface.cpp:34:
+/usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+/home/farhan/matlab_ws/src/test_sim/src/rosnodeinterface.cpp: In member function ‘void ros::matlab::NodeInterface::initialize(int, char**)’:
+/home/farhan/matlab_ws/src/test_sim/src/rosnodeinterface.cpp:73:34: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   73 |           char* extmodeArg[] = { "-port", "17725", "-blocking", "1", "-verbose",
+      |                                  ^~~~~~~
+/home/farhan/matlab_ws/src/test_sim/src/rosnodeinterface.cpp:73:43: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   73 |           char* extmodeArg[] = { "-port", "17725", "-blocking", "1", "-verbose",
+      |                                           ^~~~~~~
+/home/farhan/matlab_ws/src/test_sim/src/rosnodeinterface.cpp:73:52: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   73 |           char* extmodeArg[] = { "-port", "17725", "-blocking", "1", "-verbose",
+      |                                                    ^~~~~~~~~~~
+/home/farhan/matlab_ws/src/test_sim/src/rosnodeinterface.cpp:73:65: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   73 |           char* extmodeArg[] = { "-port", "17725", "-blocking", "1", "-verbose",
+      |                                                                 ^~~
+/home/farhan/matlab_ws/src/test_sim/src/rosnodeinterface.cpp:73:70: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   73 |           char* extmodeArg[] = { "-port", "17725", "-blocking", "1", "-verbose",
+      |                                                                      ^~~~~~~~~~
+/home/farhan/matlab_ws/src/test_sim/src/rosnodeinterface.cpp:74:13: warning: ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+   74 |             "0" };
+      |             ^~~
+[3/16] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/rtGetInf.cpp.o
+[4/16] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/rtGetNaN.cpp.o
+[5/16] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/rt_nonfinite.cpp.o
+[6/16] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/slros_busmsg_conversion.cpp.o
+In file included from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/forwards.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/common.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/ros.h:43,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_busmsg_conversion.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/src/slros_busmsg_conversion.cpp:1:
+/usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[7/16] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/slros_initialize.cpp.o
+In file included from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/forwards.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/common.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/ros.h:43,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_busmsg_conversion.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_initialize.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/src/slros_initialize.cpp:1:
+/usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[8/16] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/test_sim.cpp.o
+In file included from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/forwards.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/common.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/ros.h:43,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_busmsg_conversion.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_initialize.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/test_sim.h:28,
+                 from /home/farhan/matlab_ws/src/test_sim/src/test_sim.cpp:19:
+/usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[9/16] Building CXX object test_sim/CMakeFiles/test_sim.dir/src/test_sim_data.cpp.o
+In file included from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/sp_thread_sleep.hpp:22,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/yield_k.hpp:23,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_gcc_atomic.hpp:14,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock.hpp:42,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/detail/spinlock_pool.hpp:25,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/smart_ptr/shared_ptr.hpp:65,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/shared_ptr.hpp:53,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/forwards.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/common.h:37,
+                 from /usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/include/ros/ros.h:43,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_busmsg_conversion.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/slros_initialize.h:4,
+                 from /home/farhan/matlab_ws/src/test_sim/include/test_sim/test_sim.h:28,
+                 from /home/farhan/matlab_ws/src/test_sim/src/test_sim_data.cpp:19:
+/usr/local/MATLAB/R2023b/sys/ros1/glnxa64/ros1/boost/include/boost/bind.hpp:72:1: note: #pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace mwboost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.
+   72 | BOOST_PRAGMA_MESSAGE(
+      | ^~~~~~~~~~~~~~~~~~~~
+[10/16] Building C object test_sim/CMakeFiles/test_sim.dir/src/ext_svr.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[11/16] Building C object test_sim/CMakeFiles/test_sim.dir/src/ext_work.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[12/16] Building C object test_sim/CMakeFiles/test_sim.dir/src/rtiostream_interface.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[13/16] Building C object test_sim/CMakeFiles/test_sim.dir/src/updown.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[14/16] Building C object test_sim/CMakeFiles/test_sim.dir/src/rtiostream_utils.c.o
+cc1: warning: command line option ‘-fpermissive’ is valid for C++/ObjC++ but not for C
+[15/16] Linking CXX executable /home/farhan/matlab_ws/devel/lib/test_sim/test_sim
+[15/16] Install the project...
+-- Install configuration: ""
+-- Installing: /home/farhan/matlab_ws/install/_setup_util.py
+-- Up-to-date: /home/farhan/matlab_ws/install/env.sh
+-- Up-to-date: /home/farhan/matlab_ws/install/setup.bash
+-- Up-to-date: /home/farhan/matlab_ws/install/local_setup.bash
+-- Up-to-date: /home/farhan/matlab_ws/install/setup.sh
+-- Up-to-date: /home/farhan/matlab_ws/install/local_setup.sh
+-- Up-to-date: /home/farhan/matlab_ws/install/setup.zsh
+-- Up-to-date: /home/farhan/matlab_ws/install/local_setup.zsh
+-- Up-to-date: /home/farhan/matlab_ws/install/.rosinstall
+-- Installing: /home/farhan/matlab_ws/install/lib/pkgconfig/test_sim.pc
+-- Up-to-date: /home/farhan/matlab_ws/install/share/test_sim/cmake/test_simConfig.cmake
+-- Up-to-date: /home/farhan/matlab_ws/install/share/test_sim/cmake/test_simConfig-version.cmake
+-- Installing: /home/farhan/matlab_ws/install/share/test_sim/package.xml
+-- Installing: /home/farhan/matlab_ws/install/lib/test_sim/test_sim
+Base path: /home/farhan/matlab_ws
+Source space: /home/farhan/matlab_ws/src
+Build space: /home/farhan/matlab_ws/build
+Devel space: /home/farhan/matlab_ws/devel
+Install space: /home/farhan/matlab_ws/install
+####
+#### Running command: "ninja build.ninja" in "/home/farhan/matlab_ws/build"
+####
+####
+#### Running command: "ninja install -j8 -l8" in "/home/farhan/matlab_ws/build"
+####
