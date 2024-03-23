@@ -1,8 +1,0 @@
-prefix=/home/farhan/matlab_ws/shared/install
-
-Name: untitled
-Description: Description of untitled
-Version: 1.0.0
-Cflags: -I${prefix}/include
-Libs: -L${prefix}/lib 
-Requires: mavros_msgs roscpp std_msgs
