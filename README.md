@@ -7,3 +7,5 @@ Here is a picture of the Model for reference:
 ![Simulink_model_final](https://github.com/farhan-haroon/Linear-MPC-on-Quadrotors/assets/109333218/bcc4419c-3209-492c-ac4f-964b98b7f853)
 
 ## Working of the Model
+
+The model employs the **ROS Toolbox** and uses the **Publish** and **Subscribe** blocks to get and receive data from the **roscore**.
