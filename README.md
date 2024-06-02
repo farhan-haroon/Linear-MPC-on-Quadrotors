@@ -6,4 +6,4 @@ Here is a picture of the Model for reference:
 
 ![Simulink_model_final](https://github.com/farhan-haroon/Linear-MPC-on-Quadrotors/assets/109333218/bcc4419c-3209-492c-ac4f-964b98b7f853)
 
-## 1. Working of the Model
+## ++ Working of the Model
