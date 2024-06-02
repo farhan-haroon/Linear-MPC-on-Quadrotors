@@ -9,3 +9,5 @@ Here is a picture of the Model for reference:
 ## Working of the Model
 
 The model employs the **ROS Toolbox** and uses the **Publish** and **Subscribe** blocks to get and receive data from the **roscore**.
+
++ **Subscribe:** The Subscribe block subscribes to the */mavros/vision_pose/pose*
